@@ -15,6 +15,7 @@ export class NewsComponent implements OnInit {
   disableupdate:boolean;
   disablesave:boolean;
 
+
   constructor(private newsService:NewsService) {
 
     this.news = new news("","","", new Date());
